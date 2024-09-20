@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="" method="get">
+      <fieldset>
+        <legend>필수사항</legend>
+        <div>
+          <label for="이름">이름 </label>
+          <input type="text" name="이름" id="이름" />
+        </div>
+        <div>
+          <label for="이메일">이메일 </label>
+          <input type="text" name="이메일" id="이메일" />
+        </div>
+        <div>
+          <label for="lname">비밀번호 </label>
+          <input type="text" name="비밀번호" id="비밀번호" />
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>부가 입력 사항</legend>
+        <div>
+          <label for="date">생년월일</label>
+          <input type="date" name="date" id="date" />
+        </div>
+        <div>
+          <label for="거주지">거주지를 선택해 주세요 </label>
+        </div>
+        <div>
+          <select name="거주지" id="거주지">
+            <option value="서울시">서울시</option>
+            <option value="경기도">경기도</option>
+            <option value="충청도">충청도</option>
+            <option value="강원도">강원도</option>
+            <option value="경상도">경상도</option>
+            <option value="전라도">전라도</option>
+            <option value="제주도">제주도</option>
+          </select>
+        </div>
+      </fieldset>
+      <div>
+        <button type="submit">회원가입</button>
+        <button type="reset">재작성</button>
+        <button type="submit">전송</button>
+      </div>
+
+      <!----------------------- 추가로 채우기 ----------------------------->
+    </form>
+  </body>
+</html>
