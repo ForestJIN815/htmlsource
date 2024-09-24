@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* 
+        overflow : 요소의 크기 이상으로 내용(자식요소)이 넘쳤을때 처리
+        1) visible(default) : 넘친 부분을 그대로 보여줌
+        2) auto : 넘친 부분이 있는 경우 잘라내고, 스크롤바를 이용해서 볼 수 있도록 함
+        3) hidden : 넘친 부분을 잘라내고 보이지 않도록 함
+        4) scroll : 넘친 부분이 있는 경우 잘라내고, 가로,세로 스크롤바를 이용해서 볼 수 있도록 함
+        */
+      .overflow {
+        /* block => width : auto(100%), height : 0 */
+        height: 100px;
+        background-color: silver;
+        border: 1px solid red;
+        overflow: scroll;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="overflow">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam beatae
+      minus recusandae, quaerat eaque, ipsa doloribus ad odit amet magni
+      blanditiis modi, exercitationem quia iure praesentium nisi libero tenetur
+      quis consequuntur autem laborum similique? Quis earum in doloribus
+      quibusdam quam dolor consequuntur autem corporis laborum architecto
+      deleniti quo, dolorem temporibus deserunt tenetur sed aliquam aspernatur
+      facere a atque voluptate obcaecati sapiente assumenda. Cum amet neque
+      numquam fuga ratione, animi magnam! Ducimus ex id sint, quia aliquam sit
+      doloremque eos sapiente recusandae vel, inventore voluptate quam
+      reprehenderit ullam quisquam ad facere. Quidem, labore minima eos
+      reiciendis ipsam perferendis minus delectus consectetur. Lorem, ipsum
+      dolor sit amet consectetur adipisicing elit. Aperiam beatae minus
+      recusandae, quaerat eaque, ipsa doloribus ad odit amet magni blanditiis
+      modi, exercitationem quia iure praesentium nisi libero tenetur quis
+      consequuntur autem laborum similique? Quis earum in doloribus quibusdam
+      quam dolor consequuntur autem corporis laborum architecto deleniti quo,
+      dolorem temporibus deserunt tenetur sed aliquam aspernatur facere a atque
+      voluptate obcaecati sapiente assumenda. Cum amet neque numquam fuga
+      ratione, animi magnam! Ducimus ex id sint, quia aliquam sit doloremque eos
+      sapiente recusandae vel, inventore voluptate quam reprehenderit ullam
+      quisquam ad facere. Quidem, labore minima eos reiciendis ipsam perferendis
+      minus delectus consectetur.
+    </p>
+  </body>
+</html>
