@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+/* float */
+/* menu {
+  width: 25%;
+  float: left;
+}
+
+main {
+  width: 75%;
+} */
+
+/* flex */
+section {
+  display: flex;
+}
+
+section menu {
+  width: 25%;
+}
+
+section menu {
+  width: 75%;
+}
